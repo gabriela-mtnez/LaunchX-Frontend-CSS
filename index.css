@@ -1,0 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Fredoka, sans-serif;
+}
+
+button {
+  border-style: none;
+}
+
+.nav {
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 2;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.nav-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: solid white 4px;
+}
+
+.menu-options {
+  display: flex;
+}
+
+.menu-option {
+  margin: auto 25px;
+  color: #7e8a9f;
+  font-size: 30px;
+}
+
+.logo {
+  margin: 40px 20px;
+  color: #3050cd;
+  text-decoration: none;
+  font-size: 34px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 900;
+}
+
+.intro-container {
+  display: flex;
+  background-image: url(/img/jeringa-con-fondo2.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 1200px;
+  background-size: 50%;
+}
+
+.vac-brands {
+  display: flex;
+  padding: 100px 0px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.greyscale {
+  filter: grayscale(100%);
+  opacity: 0.1;
+  margin: 40px;
+}
+
+.moderna,
+.sino {
+  height: 70px;
+}
+
+.astra,
+.pfizer {
+  height: 100px;
+}
+
+.introduction {
+  width: 50%;
+}
+
+.img-landing {
+  width: 50%;
+}
+
+.vac-info {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  padding: 0 60px;
+  box-shadow: 20px 20px 20px grey;
+}
+
+.location,
+.date,
+.vac-type {
+  padding: 30px 50px;
+}
+
+.info-answer {
+  font-family: "Readex Pro", sans-serif;
+  font-weight: 600;
+}
+
+.btn-primary {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px 50px;
+  background-color: #3050cd;
+  border-radius: 5px;
+}
+
+.center-vac-info {
+  margin-top: -200px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #1f3f72;
+}
+
+.h2 {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #1f3f72;
+}
+
+.paragraph {
+  font-size: 30px;
+  color: #7e8a9f;
+}
+
+.paragraph2 {
+    font-size: 20px;
+    color: #7e8a9f;
+    padding: 20px 20px;
+  }
+
+.paragraph-blue {
+  color: #1f3f72;
+  font-weight: bold;
+}
+
+.paragraph-grey {
+  color: #7e8a9f;
+}
+
+.main-text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box--left::before,
+.box--bottom::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+
+.box--left::before {
+  bottom: 10%;
+  right: 50%;
+  border-top: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+  border-left: 760px solid transparent;
+  border-right: 200px solid #f4f6fb;
+}
+
+.box--bottom::after {
+  right: 80%;
+  border-bottom: 700px solid transparent;
+  border-top: 300px solid #f4f6fb;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  z-index: 1;
+}
+
+.horizontal {
+  display: flex;
+  align-items: baseline;
+}
+
+.icons {
+  color: #ffd012;
+  text-decoration: none;
+  background-color: #fefbe9;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.blue-icons {
+  color: #2848c6;
+  text-decoration: none;
+  background-color: #e8f1fe;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.top-padding {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 300px;
+}
+
+.why {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.why-cards {
+  display: flex;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-style {
+  border: 2px solid #f8f8fe;
+  border-radius: 10px;
+  padding: 30px 10px;
+  margin-right: 4%;
+  width: 20rem;
+}
+
+.preparation {
+    display: flex;
+}
+
+.girl {
+    width: 50%;
+    background-image: url(/img/girl.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 1200px;
+    background-size: 100%;
+}
+
+.preparation-before{
+    width: 50%;
+}
+
+.emergency {
+    display: flex;
+}
+
+.emergency-contact{
+    width: 50%;
+    padding: 50px 40px;
+}
+
+.footer{
+    background-color: #edf3ff;
+}
+
+.f-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+}
+
+.f-lists{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rights-terms{
+    display: flex;
+    justify-content: space-around;
+}
+
+.terms{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.two-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 30px;
+}
+
+.info{
+    padding-bottom: 50px;
+}
+
+.btn,.align-center{
+    display: flex;
+    align-items: center;
+}
+
+.boy {
+    display: flex;
+    background-image: url(/img/landingVacunación\ \(2\).png);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 1200px;
+    background-size: 100%;
+    width:50%;
+}
+
+#accordion{
+    width: 80%;
+}
